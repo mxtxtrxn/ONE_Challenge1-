@@ -1,0 +1,186 @@
+body{
+    
+    margin: 0;
+    padding: 0;
+    background: rgb(35, 33, 61);
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.container{
+    margin: auto;
+    width: 50em;
+    height: 40em;
+    padding: 2em;
+  
+}
+
+.logo{
+    width: 100%;
+    float: left;
+  
+}
+.left{
+    float: left;
+    width: 60%;
+    height: 20%;
+    border-radius:2em;
+   
+}
+
+.right{
+    float: right;
+    width: 40%;
+    border-radius:2em;
+    height: auto;
+    background: rgb(35, 33, 61);
+   
+}
+
+.left-button{
+    float: left;
+    width: 70%;
+    height: auto;
+    border-radius: 4em;
+   
+}
+
+.logoImg{
+    margin-top: 1%;
+    float:inherit;
+    margin-left: 5%;
+}
+
+.tittle{
+    float: inherit;
+    margin-left: 25%;
+    color: #00ffd5;
+    font-size: 1.5em;
+}
+
+
+
+.text-input{
+    display: block;
+    float: left;
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 80%;
+    height: 80%;
+    color:  #00ffd5;
+    font-size: 0.7em;
+    border: none;
+    outline: none;
+    background:  rgb(35, 33, 61);
+}
+
+#imgDer{
+
+    margin-left: 2%;
+    margin-top: 20%;
+    width: 90%;
+    height: auto;
+    color: #0a3871;
+
+}
+
+#texto{
+    margin-left: 6%;
+    margin-right: 5%;
+    color: #00ffd5;
+}
+
+#texto2{
+    float: left;
+    margin-left: 10%;
+    color:  #00ffd5;
+    width: 80%;
+    height: 60%;
+    border: none;
+    outline: none;
+    font-size: 0.7em;
+    background: none;
+}
+
+#btn-encriptar{
+    padding: 2em;
+    width: 30%;
+    height: 60%;
+    border-radius:2em;
+    margin-left: 15%;
+    background: #b600ee00;
+    border: none;
+    transition: 2s all;
+    cursor:pointer;
+    color:  #00ffd5;
+}
+#btn-encriptar:hover{
+
+    background:  #ff95c1;
+    transform: scale(1.1);
+    color:rgb(35, 33, 61);
+}
+
+#btn-desencriptar{
+    padding:2em;
+    width: 30%;
+    height: 60%;
+    border-radius:2em;
+    margin-left: 7%;
+    background: #b600ee00;
+    border:none;
+    color: #00ffd5;
+    transition: 2s all;
+    cursor:pointer;
+}
+
+#btn-desencriptar:hover{
+
+    background:  #78ffdd ;
+    transform: scale(1.1);
+    color:rgb(35, 33, 61);
+    
+}
+#copiar{
+
+    margin-left: 33%;
+    margin-top: 90%;
+    padding: 2em;
+    width: 40%;
+    height: 10%;
+    color: #00ffd5;
+    background:  #b600ee00 ;
+    border-radius: 2em;
+    border: none;
+    display: none;
+    transition: 2s all;
+
+}
+
+#copiar:hover{
+
+    background:  #e2ff78 ;
+    transform: scale(1.1);
+    color:rgb(35, 33, 61);
+
+}
+
+footer{
+    text-align: center;
+    padding:0.5em;
+}
+
+.nombre{
+    color: #e8c1ff;
+    font-size: 0.7em;
+    margin:1em;
+
+}
+
+#reglas{
+
+    font-size: 1em;
+    color: #00ffd5;
+    
+
+}
